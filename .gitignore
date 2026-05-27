@@ -1,0 +1,64 @@
+# ──────────────────────────────────────────────
+# Virtual environment — never commit this
+# ──────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ──────────────────────────────────────────────
+# Python cache / compiled files
+# ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ──────────────────────────────────────────────
+# Jupyter artefacts
+# ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.nbconvert/
+profile_default/
+ipython_config.py
+
+# ──────────────────────────────────────────────
+# OS / editor junk
+# ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ──────────────────────────────────────────────
+# Distribution / packaging
+# ──────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# ──────────────────────────────────────────────
+# Environment / secrets
+# ──────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+
+# ──────────────────────────────────────────────
+# Large data files (keep the CSV that the code needs,
+# exclude the raw Excel source file)
+# ──────────────────────────────────────────────
+data/*.xlsx
+data/*.xls
+
+# Uncomment the line below if you do NOT want to
+# push the CSV either (e.g. proprietary data):
+# data/

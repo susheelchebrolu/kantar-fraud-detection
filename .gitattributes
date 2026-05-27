@@ -1,0 +1,12 @@
+# Normalise line endings to LF in the repo; checkout as native on each OS
+* text=auto
+
+# Notebooks — treat as text (JSON under the hood)
+*.ipynb text eol=lf
+
+# Explicitly binary — never touch line endings
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.xlsx binary
+*.csv text eol=lf
